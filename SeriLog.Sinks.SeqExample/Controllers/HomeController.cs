@@ -25,6 +25,7 @@ namespace SeriLog.Sinks.SeqExample.Controllers
             _logger.LogCritical("this is a Critical");
             _logger.LogInformation("this is a Information");
             _logger.LogDebug("this is a Debug log");
+            //this is test
             return View();
         }
 
